@@ -1,0 +1,48 @@
+# OC 101992 — SENAC
+
+- **OC:** 101992
+- **Emissão:** 01/06/2026
+- **Entrega:** 02/06/2026
+- **Cliente:** Serviço Nacional de Aprendizagem Comercial — SENAC
+- **Local principal:** Av. Ayrton Senna, 5555, Barra Olímpica, Rio de Janeiro/RJ, CEP 22775-004
+- **Fornecedor:** JJL Distribuidora de Alimentos Ltda - EPP
+- **Condição de pagamento:** 28 dias
+- **Frete:** CIF
+- **Valor total:** R$ 12.869,41
+- **Fonte Gmail:** mensagem 19e846070b195298; anexo `JJL- OC - 101992.PDF`
+- **Recebido em:** 01/06/2026
+- **Status de validação:** documento lido
+
+## Itens
+| Item | Descrição original | Unid. | Qtd. | Preço unit. | Total |
+|---:|---|---|---:|---:|---:|
+|1|XYLITOL - XILITOL|KG|0,3|165,0000|49,50|
+|2|AZEITONA PRETA SEM CAROCO - BALDE|KG|2|42,4400|84,88|
+|3|BISCOITO CHAMPAGNE|KG|1,5|99,9300|149,90|
+|4|BISCOITO DE MAISENA TRADICIONAL|KG|5,25|23,3900|122,80|
+|5|CHOCOLATE EM BARRA BRANCO|KG|20|106,0000|2.120,00|
+|6|CHOCOLATE MEIO AMARGO EM BARRA|KG|20|105,0000|2.100,00|
+|7|COLORAU PURO EM PO|KG|2|21,4000|42,80|
+|8|COMINHO EM PO|KG|1|23,8500|23,85|
+|9|CURCUMA DA TERRA|KG|1|44,7900|44,79|
+|10|MAIONESE TRADICIONAL|KG|2|19,4100|38,82|
+|11|MOLHO DE PIMENTA ESP - 60ML|L|0,72|418,7500|301,50|
+|12|MOLHO SHOYO|L|5|25,1500|125,75|
+|13|MOSTARDA|KG|5,4|36,0000|194,40|
+|14|VINAGRE DE ALCOOL|L|15|5,1200|76,80|
+|15|VINAGRE DE VINHO TINTO|L|7,5|11,8700|89,03|
+|16|CATCHUP TRADICIONAL - GRANDE|KG|3,2|22,4800|71,94|
+|17|MAIONESE - GRANDE|KG|15|24,2000|363,00|
+|18|MEL DE ABELHA|KG|2|79,0000|158,00|
+|19|FARINHA PANKO|KG|5|39,0000|195,00|
+|20|TAPIOCA|KG|7|21,8900|153,23|
+|21|FERMENTO EM PO QUIMICO|KG|1|59,9600|59,96|
+|22|AMENDOIM CRU COM PELE VERMELHA|KG|12|38,2800|459,36|
+|23|CASTANHA DO PARA INTEIRA|KG|6|169,9000|1.019,40|
+|24|MASSA ESPAGUETE GRANO DURO - PCT. 500 GR.|KG|10|24,0000|240,00|
+|25|MASSA FARFALE GRANO DURO - PCT. 500 GR.|KG|20|23,0000|460,00|
+|26|MASSA LINGUINE GRANO DURO - PCT. 500 GR.|KG|45|31,5000|1.417,50|
+|27|MASSA PENNE GRANO DURO - PCT. 500 GR.|KG|15|24,0000|360,00|
+|28|AZEITE EXTRA VIRGEM - 500 ML|L|24|97,8000|2.347,20|
+
+> Observação: o item 26 traz grupo de pagamento Restaurante Escola Senac Downtown, embora o cabeçalho do documento mostre o local principal da Barra Olímpica. A divergência foi preservada para rastreabilidade.
