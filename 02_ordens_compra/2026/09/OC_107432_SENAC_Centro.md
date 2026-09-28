@@ -43,3 +43,4 @@ IE: 79.932.140
 - A OC identifica o endereço da Avenida General Justo, 307, correspondente ao SENAC Centro.
 - A aprovação eletrônica referencia G325 (Senac Downtown).
 - O fornecedor de compra da JJL não é inferido a partir desta OC; deve ser conciliado separadamente com a NF de entrada correspondente.
+- Informação operacional de 28/09/2026: os 55 kg de rabada serão fornecidos pela Cantagalo, ao custo informado de R$ 34,98/kg. Pendente confirmação pela NF de entrada.
