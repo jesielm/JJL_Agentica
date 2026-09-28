@@ -15,6 +15,76 @@ Período das vendas localizado no cadastro fiscal: 01/09/2026 a 22/09/2026.
 | **Margem após o Simples** | **R$ 16.174,48** |
 | **Margem após o Simples / receita** | **15,01%** |
 
+## Resultado do mês incluindo vendas não entregues de 28/09
+
+As vendas abaixo entram na projeção total de setembro, conforme orientação gerencial, mas permanecem separadas das NF-e já realizadas.
+
+| Indicador | Realizado por NF-e | Não entregue | Total setembro |
+|---|---:|---:|---:|
+| Quantidade | 3.072,28 kg | 507,41 kg | **3.579,69 kg** |
+| Receita | R$ 107.757,21 | R$ 24.806,78 | **R$ 132.563,99** |
+| Custo | R$ 82.962,15 | R$ 17.220,00 | **R$ 100.182,15** |
+| Simples — 8% | R$ 8.620,58 | R$ 1.984,54 | **R$ 10.605,12** |
+| Margem após Simples | R$ 16.174,48 | R$ 5.602,25 | **R$ 21.776,73** |
+| Margem sobre a receita | 15,01% | 22,58% | **16,43%** |
+
+## Vendas realizadas por cliente e NF-e
+
+### SESC — Av. Ayrton Senna, 5677
+
+| NF | Data | Produto | Quantidade | Receita |
+|---:|---:|---|---:|---:|
+| 3050 | 08/09 | Filé de frango | 702,00 kg | R$ 15.240,42 |
+| 3068 | 21/09 | Filé de frango | 720,00 kg | R$ 15.631,20 |
+| **Subtotal SESC** |  |  | **1.422,00 kg** | **R$ 30.871,62** |
+
+### Senac Barra — Av. Ayrton Senna, 5555
+
+| NF | Data | Produto(s) | Quantidade | Receita |
+|---:|---:|---|---:|---:|
+| 3040 | 01/09 | Charque | 150,00 kg | R$ 7.677,00 |
+| 3046 | 03/09 | Rabada | 255,60 kg | R$ 12.245,80 |
+| 3051 | 08/09 | Charque | 50,00 kg | R$ 2.559,00 |
+| 3057 | 11/09 | Costela, lagarto, patinho e fígado | 330,95 kg | R$ 15.115,20 |
+| 3060 | 14/09 | Costela, lagarto, patinho, fígado e bucho | 244,13 kg | R$ 9.478,38 |
+| 3065 | 15/09 | Costela, lagarto, patinho, fígado e bucho | 196,25 kg | R$ 7.669,46 |
+| 3069 | 21/09 | Charque | 100,00 kg | R$ 5.118,00 |
+| 3072 | 21/09 | Maminha | 95,45 kg | R$ 5.372,88 |
+| 3082 | 22/09 | Maminha | 93,30 kg | R$ 5.251,86 |
+| **Subtotal realizado Barra** |  |  | **1.515,68 kg** | **R$ 70.487,58** |
+
+### Senac Centro — Av. General Justo, 307
+
+| NF | Data | Produto(s) | Quantidade | Receita |
+|---:|---:|---|---:|---:|
+| 3048 | 04/09 | Charque e bucho | 49,50 kg | R$ 2.001,06 |
+| 3061 | 14/09 | Maminha | 29,70 kg | R$ 1.671,81 |
+| 3070 | 21/09 | Charque | 30,00 kg | R$ 1.535,40 |
+| 3075 | 22/09 | Costela | 25,40 kg | R$ 1.189,74 |
+| **Subtotal realizado Centro** |  |  | **134,60 kg** | **R$ 6.398,01** |
+
+## Vendas registradas em 28/09 — NÃO ENTREGUES / NÃO CONCLUÍDAS
+
+Estas linhas entram no total gerencial do mês, porém não devem ser tratadas como receita fiscal realizada até a emissão da NF-e e confirmação da entrega.
+
+### Senac Centro — OC 107432
+
+| NF de venda | Produto | Quantidade | Venda/kg | Receita | Custo/kg | Custo | Simples 8% | Margem |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Não emitida/localizada | Rabada | 55,00 kg | R$ 47,91 | R$ 2.635,05 | R$ 34,98 | R$ 1.923,90 | R$ 210,80 | R$ 500,35 |
+| Não emitida/localizada | Patinho | 25,00 kg | R$ 51,87 | R$ 1.296,75 | R$ 39,50 | R$ 987,50 | R$ 103,74 | R$ 205,51 |
+| **Subtotal Centro não entregue** |  | **80,00 kg** |  | **R$ 3.931,80** |  | **R$ 2.911,40** | **R$ 314,54** | **R$ 705,86** |
+
+### Senac Barra — OC 107497
+
+Entrega prevista para 29/09. A costela foi considerada pela quantidade total prevista de entrega, dentro da tolerância operacional informada.
+
+| NF de venda | Produto | Quantidade | Venda/kg | Receita | Custo/kg | Custo | Simples 8% | Margem |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Não emitida/localizada | Costela | 257,41 kg | R$ 46,84 | R$ 12.057,08 | R$ 29,50 | R$ 7.593,60 | R$ 964,57 | R$ 3.498,92 |
+| Não emitida/localizada | Patinho | 170,00 kg | R$ 51,87 | R$ 8.817,90 | R$ 39,50 | R$ 6.715,00 | R$ 705,43 | R$ 1.397,47 |
+| **Subtotal Barra não entregue** |  | **427,41 kg** |  | **R$ 20.874,98** |  | **R$ 14.308,60** | **R$ 1.670,00** | **R$ 4.896,39** |
+
 ## Resultado por produto
 
 | Produto | Qtd. vendida | Receita | Custo | Simples 8% | Margem após Simples | Margem % |
@@ -77,4 +147,4 @@ A margem associada a essas duas notas será ajustada quando as NF-e de compra es
 
 - Cálculo: receita − custo da mercadoria vendida − 8% de Simples.
 - Não inclui frete, entregador, armazenagem, despesas operacionais ou outras despesas acessórias.
-- O período não representa necessariamente o mês completo: a última NF-e de venda disponível nesta apuração é de 22/09/2026.
+- A última NF-e de venda realizada disponível nesta apuração é de 22/09/2026. As vendas registradas em 28/09 foram incluídas somente no total gerencial e permanecem marcadas como não entregues/não concluídas.
