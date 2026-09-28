@@ -44,7 +44,7 @@ Este índice registra OCs/pedidos confirmados pelo e-mail e anexos identificados
 - 107268 — SENAC Barra — recebido 18/09 — inclusão posterior no pedido
 - Pedido 034324 — SESC — recebido 18/09 — pedido de compras do contrato PLE-22/8265
 - 107432 — SENAC — recebido 22/09 — entrega 28/09
-- 107497 — SENAC Barra — recebido 24/09 — entrega 29/09
+- 107497 — SENAC Barra — recebido 24/09 — entrega 29/09 — proteína — **documento integralmente extraído**
 - 107499 — SENAC Barra — recebido 24/09 — entrega 29/09
 - 107503 — SENAC — recebido 24/09 — entrega 29/09
 
@@ -59,6 +59,6 @@ Foram descartados como OC: solicitações de cotação/coleta de preços (ex.: 4
 
 ## Auditoria
 - Total listado: **38 OCs/pedidos**, sendo 37 referências SENAC e 1 pedido SESC.
-- 1 OC (101992) teve conteúdo integral extraído e persistido nesta carga.
+- 2 OCs (101992 e 107497) tiveram conteúdo integral extraído e persistido nesta carga.
 - As demais referências foram confirmadas por metadados do Gmail e nomes dos anexos, mas **a extração integral item a item ainda está pendente**. Isso é explicitamente marcado para impedir que a base trate dados não lidos como validados.
 - Existem inconsistências entre assunto e nome de anexo em algumas mensagens; essas ocorrências foram preservadas e exigem leitura do PDF antes da consolidação final.
