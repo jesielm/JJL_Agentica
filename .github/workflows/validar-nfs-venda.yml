@@ -1,0 +1,79 @@
+name: Validar base de NF-e de venda
+
+on:
+  pull_request:
+    paths:
+      - '05_notas_fiscais_venda/**'
+      - 'scripts/consolidar_nfs_venda.py'
+      - '.github/workflows/validar-nfs-venda.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Capturar estado anterior
+        id: before
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          for name in ('notas.csv','itens.csv'):
+              p=Path('05_notas_fiscais_venda')/name
+              with p.open(encoding='utf-8-sig', newline='') as f:
+                  rows=list(csv.DictReader(f))
+              print(f'{name}: {len(rows)} registros')
+              Path(f'/tmp/{name}.count').write_text(str(len(rows)))
+          PY
+
+      - name: Executar consolidador
+        run: python scripts/consolidar_nfs_venda.py
+
+      - name: Validar integridade e unicidade
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          base=Path('05_notas_fiscais_venda')
+          def rows(name):
+              with (base/name).open(encoding='utf-8-sig', newline='') as f: return list(csv.DictReader(f))
+          notas=rows('notas.csv'); itens=rows('itens.csv')
+          old_n=int(Path('/tmp/notas.csv.count').read_text()); old_i=int(Path('/tmp/itens.csv.count').read_text())
+          assert len(notas)>=old_n, f'ERRO: notas diminuiu {old_n}->{len(notas)}'
+          assert len(itens)>=old_i, f'ERRO: itens diminuiu {old_i}->{len(itens)}'
+          def chave(r): return (r.get('chave_acesso') or r.get('chave') or r.get('chave_nfe') or '').strip()
+          ks=[chave(r) for r in notas]
+          assert all(ks), 'ERRO: existe NF sem chave de acesso'
+          assert len(ks)==len(set(ks)), 'ERRO: existem chaves de acesso duplicadas em notas.csv'
+          fat=rows('faturamento_mensal.csv')
+          assert fat, 'ERRO: faturamento_mensal.csv não foi gerado'
+          print(f'OK: {len(notas)} notas, {len(itens)} itens, {len(fat)} competências')
+          PY
+
+      - name: Verificar idempotência
+        shell: bash
+        run: |
+          cp 05_notas_fiscais_venda/notas.csv /tmp/notas.once
+          cp 05_notas_fiscais_venda/itens.csv /tmp/itens.once
+          cp 05_notas_fiscais_venda/faturamento_mensal.csv /tmp/fat.once
+          python scripts/consolidar_nfs_venda.py
+          cmp /tmp/notas.once 05_notas_fiscais_venda/notas.csv
+          cmp /tmp/itens.once 05_notas_fiscais_venda/itens.csv
+          cmp /tmp/fat.once 05_notas_fiscais_venda/faturamento_mensal.csv
+          echo 'OK: execução idempotente'
+
+      - name: Resumo das alterações geradas
+        run: git status --short
