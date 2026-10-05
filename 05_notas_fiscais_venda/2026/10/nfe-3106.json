@@ -1,0 +1,31 @@
+{
+  "nota": {
+    "chave": "33261021540215000175550010000031061007117195",
+    "numero": "3106",
+    "serie": "1",
+    "emissao": "2026-10-05T07:42:00-03:00",
+    "natureza": "Venda de mercadoria",
+    "tipo": "1",
+    "finalidade": "1",
+    "emitente": "JJL DISTRIBUIDORA DE ALIMENTOS LTDA",
+    "cnpj_emitente": "21540215000175",
+    "destinatario": "SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC",
+    "cnpj_destinatario": "33469172002020",
+    "endereco_destino": "AV GENERAL JUSTO 307",
+    "bairro_destino": "CENTRO",
+    "municipio_destino": "Rio de Janeiro",
+    "valor_produtos": "4190.75",
+    "valor_nota": "4190.75",
+    "valor_icms": "0.00",
+    "valor_desconto": "0.00",
+    "protocolo": "233260475187474",
+    "status_sefaz": "100",
+    "fonte": "Gmail mensagem 1a10baa7ab5f53c9; DANFE 33261021540215000175550010000031061007117195 (1).pdf",
+    "observacao_tributos": "Valor aproximado dos tributos informado no DANFE: R$ 857,02; emitente optante pelo Simples Nacional; ICMS/IPI destacados R$ 0,00"
+  },
+  "itens": [
+    {"chave":"33261021540215000175550010000031061007117195","numero":"3106","emissao":"2026-10-05T07:42:00-03:00","destinatario":"SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC","municipio_destino":"Rio de Janeiro","endereco_destino":"AV GENERAL JUSTO 307","item":"1","codigo":"2040994381103","descricao":"CHARQUE TRASEIRO","ncm":"02102000","cfop":"5102","unidade":"KG","quantidade":"20.0000","preco_unitario":"51.1800","valor_item":"1023.60","desconto_item":"0.00","cst_csosn":"0/102","bc_icms":"0.00","valor_icms":"0.00","valor_ipi":"0.00"},
+    {"chave":"33261021540215000175550010000031061007117195","numero":"3106","emissao":"2026-10-05T07:42:00-03:00","destinatario":"SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC","municipio_destino":"Rio de Janeiro","endereco_destino":"AV GENERAL JUSTO 307","item":"2","codigo":"2076543817403","descricao":"Rabada bovina","ncm":"02012090","cfop":"5102","unidade":"KG","quantidade":"22.6000","preco_unitario":"47.9100","valor_item":"1082.77","desconto_item":"0.00","cst_csosn":"0/102","bc_icms":"0.00","valor_icms":"0.00","valor_ipi":"0.00"},
+    {"chave":"33261021540215000175550010000031061007117195","numero":"3106","emissao":"2026-10-05T07:42:00-03:00","destinatario":"SERVICO NACIONAL DE APRENDIZAGEM COMERCIAL SENAC","municipio_destino":"Rio de Janeiro","endereco_destino":"AV GENERAL JUSTO 307","item":"3","codigo":"2028688961602","descricao":"COSTELA BOVINA","ncm":"02012090","cfop":"5102","unidade":"KG","quantidade":"44.5000","preco_unitario":"46.8400","valor_item":"2084.38","desconto_item":"0.00","cst_csosn":"0/102","bc_icms":"0.00","valor_icms":"0.00","valor_ipi":"0.00"}
+  ]
+}
