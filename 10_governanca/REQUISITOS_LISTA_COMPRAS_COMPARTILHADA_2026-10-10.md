@@ -1,7 +1,8 @@
 # Regras funcionais — Lista de Compras Compartilhada (10/10/2026)
 
 ## Colunas
-Primeira coluna: **Fornecedor sugerido** (indicação editável, não obrigação).
+Primeira coluna: **Comprado** (checkbox compartilhado).
+Segunda coluna: **Fornecedor sugerido** (indicação editável, não obrigação).
 Demais: Produto, quantidade consolidada, Senac Barra, Senac Centro, unidade, situação, comprado por, comprado em.
 
 ## Compra compartilhada
