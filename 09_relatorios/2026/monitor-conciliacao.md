@@ -10,7 +10,7 @@
 
 ## Situacao da coleta
 - BAIXADO: 4021
-- DUPLICADO: 36958
+- DUPLICADO: 37090
 - ERRO: 2
 - INVALID_XML: 1
 
