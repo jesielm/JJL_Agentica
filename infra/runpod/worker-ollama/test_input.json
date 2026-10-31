@@ -1,0 +1,10 @@
+{
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reply with exactly one word: hello"
+      }
+    ]
+  }
+}
