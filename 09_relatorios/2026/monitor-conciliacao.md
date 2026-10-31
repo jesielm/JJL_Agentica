@@ -6,11 +6,11 @@
 - erp-email-collector.service: Result=success; ExecMainStatus=0
 - erp-oc-ingestion.service: Result=success; ExecMainStatus=0
 - erp-supplier-ingestion.service: Result=success; ExecMainStatus=0
-- erp-push-notifier.service: Result=exit-code; ExecMainStatus=125
+- erp-push-notifier.service: Result=success; ExecMainStatus=0
 
 ## Situacao da coleta
 - BAIXADO: 4021
-- DUPLICADO: 36819
+- DUPLICADO: 36958
 - ERRO: 2
 - INVALID_XML: 1
 
