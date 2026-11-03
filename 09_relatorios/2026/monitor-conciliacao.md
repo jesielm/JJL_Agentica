@@ -37,7 +37,6 @@
 | 109179 | CENTRO | 2026-11-03 | PARSED_PDF |
 | 109169 | BARRA | 2026-11-04 | PARSED_PDF |
 | 109152 | BARRA | 2026-11-04 | PARSED_PDF |
-| 109090 | CENTRO | 2026-11-03 | PARSED_PDF |
 
 ## NFs registradas nos ultimos 7 dias
 
