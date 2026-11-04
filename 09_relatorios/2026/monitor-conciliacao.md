@@ -3,7 +3,7 @@
 > Gerado automaticamente. Itens sem vinculo sao **candidatos a revisao**, nao comprovacao de falha de processamento.
 
 ## Servicos
-- erp-email-collector.service: Result=exit-code; ExecMainStatus=1
+- erp-email-collector.service: Result=success; ExecMainStatus=0
 - erp-oc-ingestion.service: Result=success; ExecMainStatus=0
 - erp-supplier-ingestion.service: Result=success; ExecMainStatus=0
 - erp-push-notifier.service: Result=success; ExecMainStatus=0
@@ -44,14 +44,13 @@
 | --- | --- | --- | --- |
 | 5573544 | RIO QUALITY COMERCIO DE ALIMENTOS S/A | 1835.98 | COMPRA |
 | 3670938 | JBS S/A | 1217.73 | COMPRA |
-| 352315 | CANTAGALO2012 COMERCIO DE CARNES LTDA  ME | 12594.40 | COMPRA |
 | 2438572 | NUTRYMAX COMERCIO DE PRODUTOS ALIMENTICIOS LTDA | 1068.44 | COMPRA |
 | 2436489 | NUTRYMAX COMERCIO DE PRODUTOS ALIMENTICIOS LTDA | 1068.44 | DEVOLUCAO |
 | 2435044 | NUTRYMAX COMERCIO DE PRODUTOS ALIMENTICIOS LTDA | 1068.44 | COMPRA |
 | 3663430 | JBS S/A | 6177.88 | COMPRA |
 | 5548867 | RIO QUALITY COMERCIO DE ALIMENTOS S/A | 974.45 | COMPRA |
+| 352315 | CANTAGALO2012 COMERCIO DE CARNES LTDA  ME | 12594.40 | COMPRA |
 | 2450456 | NUTRYMAX COMERCIO DE PRODUTOS ALIMENTICIOS LTDA | 850.82 | COMPRA |
-| 5564723 | RIO QUALITY COMERCIO DE ALIMENTOS S/A | 123.75 | DEVOLUCAO |
 
 ## Limitacoes
 - NFs XML sem vinculo direto nao sao automaticamente erros: podem ser XMLs de terceiros, duplicatas ou devolucoes.
