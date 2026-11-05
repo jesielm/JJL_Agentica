@@ -3,7 +3,7 @@
 > Gerado automaticamente. Itens sem vinculo sao **candidatos a revisao**, nao comprovacao de falha de processamento.
 
 ## Servicos
-- erp-email-collector.service: Result=success; ExecMainStatus=0
+- erp-email-collector.service: Result=exit-code; ExecMainStatus=1
 - erp-oc-ingestion.service: Result=success; ExecMainStatus=0
 - erp-supplier-ingestion.service: Result=success; ExecMainStatus=0
 - erp-push-notifier.service: Result=success; ExecMainStatus=0
@@ -35,8 +35,6 @@
 | 109201 | CENTRO | 2026-11-04 | PARSED_PDF |
 | 108813 | CENTRO | 2026-10-26 | PARSED_PDF |
 | 109179 | CENTRO | 2026-11-03 | PARSED_PDF |
-| 109169 | BARRA | 2026-11-04 | PARSED_PDF |
-| 109152 | BARRA | 2026-11-04 | PARSED_PDF |
 
 ## NFs registradas nos ultimos 7 dias
 
