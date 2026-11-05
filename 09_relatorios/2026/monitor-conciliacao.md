@@ -33,8 +33,6 @@
 | OC | unidade | entrega | validacao |
 | --- | --- | --- | --- |
 | 109201 | CENTRO | 2026-11-04 | PARSED_PDF |
-| 108813 | CENTRO | 2026-10-26 | PARSED_PDF |
-| 109179 | CENTRO | 2026-11-03 | PARSED_PDF |
 
 ## NFs registradas nos ultimos 7 dias
 
