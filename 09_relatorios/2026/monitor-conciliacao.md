@@ -39,7 +39,6 @@
 | NF | fornecedor | valor | tipo |
 | --- | --- | --- | --- |
 | 5573544 | RIO QUALITY COMERCIO DE ALIMENTOS S/A | 1835.98 | COMPRA |
-| 3670938 | JBS S/A | 1217.73 | COMPRA |
 
 ## Limitacoes
 - NFs XML sem vinculo direto nao sao automaticamente erros: podem ser XMLs de terceiros, duplicatas ou devolucoes.
