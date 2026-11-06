@@ -3,7 +3,7 @@
 > Gerado automaticamente. Itens sem vinculo sao **candidatos a revisao**, nao comprovacao de falha de processamento.
 
 ## Servicos
-- erp-email-collector.service: Result=success; ExecMainStatus=0
+- erp-email-collector.service: Result=exit-code; ExecMainStatus=1
 - erp-oc-ingestion.service: Result=success; ExecMainStatus=0
 - erp-supplier-ingestion.service: Result=success; ExecMainStatus=0
 - erp-push-notifier.service: Result=success; ExecMainStatus=0
@@ -32,6 +32,8 @@
 
 | OC | unidade | entrega | validacao |
 | --- | --- | --- | --- |
+| 109389 | CENTRO | 2026-11-10 | PARSED_PDF |
+| PROV-BARRA-20261110 | BARRA | 2026-11-10 | PENDING |
 | 109201 | CENTRO | 2026-11-04 | PARSED_PDF |
 
 ## NFs registradas nos ultimos 7 dias
