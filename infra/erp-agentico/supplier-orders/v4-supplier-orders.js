@@ -128,13 +128,29 @@
     return {size, unit: {KG:'kg', GR:'g', G:'g', ML:'mL', L:'L'}[unit.toUpperCase()]};
   }
 
+  const ignoredWords = new Set(['com', 'sem', 'para', 'das', 'dos', 'por', 'uma', 'und', 'unid', 'pct', 'ml', 'kg', 'gr']);
+  function productWords(value) {
+    return new Set((String(value ?? '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
+      .match(/\p{L}[\p{L}\p{N}]*/gu) || [])
+      .filter(word => word.length >= 3 && !ignoredWords.has(word)));
+  }
+
   function invoiceOptions(line, catalog) {
+    const requestedWords = productWords(line.description);
+    const candidates = catalog.flatMap(item => {
+      const words = productWords(item.description);
+      const overlap = [...requestedWords].filter(word => words.has(word)).length;
+      return overlap ? [{item, overlap}] : [];
+    }).sort((a, b) => b.overlap - a.overlap || a.item.description.localeCompare(b.item.description, 'pt-BR'));
+    const current = catalog.find(item => String(item.id) === String(line.invoice_item_id));
     const option = item => `<option value="${esc(item.id)}">${esc(item.description)} · NF ${esc(item.invoice_number)}${item.product_code ? ` · cód. ${esc(item.product_code)}` : ''}</option>`;
-    const matches = catalog.filter(item => item.normalized_product === line.product_key);
-    const others = catalog.filter(item => item.normalized_product !== line.product_key);
-    return `<option value="">Selecionar descrição da NF</option>
-      ${matches.length ? `<optgroup label="Mesmo produto normalizado">${matches.map(option).join('')}</optgroup>` : ''}
-      ${others.length ? `<optgroup label="Outros itens das NFs do fornecedor">${others.map(option).join('')}</optgroup>` : ''}`;
+    const matches = candidates.filter(({item}) => item.normalized_product === line.product_key);
+    const related = candidates.filter(({item}) => item.normalized_product !== line.product_key);
+    const saved = current && !candidates.some(({item}) => item === current);
+    return `<option value="">${candidates.length ? 'Selecionar descrição da NF' : 'Nenhuma descrição da NF com palavra em comum'}</option>
+      ${matches.length ? `<optgroup label="Mesmo produto normalizado">${matches.map(({item}) => option(item)).join('')}</optgroup>` : ''}
+      ${related.length ? `<optgroup label="Descrições com palavras em comum">${related.map(({item}) => option(item)).join('')}</optgroup>` : ''}
+      ${saved ? `<optgroup label="Descrição já vinculada ao rascunho">${option(current)}</optgroup>` : ''}`;
   }
 
   function renderEditor(editor, draft, catalog, catalogError, onSaved) {
