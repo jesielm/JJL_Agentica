@@ -3,7 +3,7 @@
 > Gerado automaticamente. Itens sem vinculo sao **candidatos a revisao**, nao comprovacao de falha de processamento.
 
 ## Servicos
-- erp-email-collector.service: Result=exit-code; ExecMainStatus=1
+- erp-email-collector.service: Result=success; ExecMainStatus=0
 - erp-oc-ingestion.service: Result=success; ExecMainStatus=0
 - erp-supplier-ingestion.service: Result=success; ExecMainStatus=0
 - erp-push-notifier.service: Result=success; ExecMainStatus=0
@@ -38,7 +38,7 @@
 
 | NF | fornecedor | valor | tipo |
 | --- | --- | --- | --- |
-| 5573544 | RIO QUALITY COMERCIO DE ALIMENTOS S/A | 1835.98 | COMPRA |
+| Nenhum |  |  |  |
 
 ## Limitacoes
 - NFs XML sem vinculo direto nao sao automaticamente erros: podem ser XMLs de terceiros, duplicatas ou devolucoes.
