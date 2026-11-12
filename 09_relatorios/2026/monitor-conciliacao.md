@@ -32,6 +32,10 @@
 
 | OC | unidade | entrega | validacao |
 | --- | --- | --- | --- |
+| 109797 | BARRA | 2026-11-17 | PENDING |
+| 109801 | CENTRO | 2026-11-17 | PENDING |
+| 109842 | BARRA | 2026-11-17 | PENDING |
+| 109846 | CENTRO | 2026-11-17 | PENDING |
 | 109548 | BARRA | 2026-11-10 | PARSED_PDF |
 | 109389 | CENTRO | 2026-11-10 | PARSED_PDF |
 
@@ -39,7 +43,14 @@
 
 | NF | fornecedor | valor | tipo |
 | --- | --- | --- | --- |
-| Nenhum |  |  |  |
+| 3672974 | JBS S/A |  | COMPRA |
+| 5578340 | RIO QUALITY COMERCIO DE ALIMENTOS S/A |  | COMPRA |
+| 5589002 | RIO QUALITY COMERCIO DE ALIMENTOS S/A |  | COMPRA |
+| 2465914 | NUTRYMAX ALIMENTOS |  | COMPRA |
+| 2470499 | NUTRYMAX ALIMENTOS |  | COMPRA |
+| 8309684 | TOP ALTO |  | COMPRA |
+| 354806 | CANTAGALO 2012 COMERCIO DE CARNES LTDA |  | COMPRA |
+| 53642 | CASA FLORA |  | COMPRA |
 
 ## Limitacoes
 - NFs XML sem vinculo direto nao sao automaticamente erros: podem ser XMLs de terceiros, duplicatas ou devolucoes.
