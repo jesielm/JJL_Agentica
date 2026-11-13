@@ -37,7 +37,6 @@
 | 109842 | BARRA | 2026-11-17 | PENDING |
 | 109846 | CENTRO | 2026-11-17 | PENDING |
 | 109548 | BARRA | 2026-11-10 | PARSED_PDF |
-| 109389 | CENTRO | 2026-11-10 | PARSED_PDF |
 
 ## NFs registradas nos ultimos 7 dias
 
