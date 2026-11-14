@@ -3,7 +3,7 @@
 > Gerado automaticamente. Itens sem vinculo sao **candidatos a revisao**, nao comprovacao de falha de processamento.
 
 ## Servicos
-- erp-email-collector.service: Result=success; ExecMainStatus=0
+- erp-email-collector.service: Result=exit-code; ExecMainStatus=1
 - erp-oc-ingestion.service: Result=success; ExecMainStatus=0
 - erp-supplier-ingestion.service: Result=success; ExecMainStatus=0
 - erp-push-notifier.service: Result=success; ExecMainStatus=0
