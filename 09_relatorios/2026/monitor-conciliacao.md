@@ -32,6 +32,8 @@
 
 | OC | unidade | entrega | validacao |
 | --- | --- | --- | --- |
+| 110117 | BARRA | 2026-11-24 | PENDING |
+| 110118 | BARRA | 2026-11-24 | PENDING |
 | 109797 | BARRA | 2026-11-17 | PENDING |
 | 109801 | CENTRO | 2026-11-17 | PENDING |
 | 109842 | BARRA | 2026-11-17 | PENDING |
