@@ -32,6 +32,8 @@
 
 | OC | unidade | entrega | validacao |
 | --- | --- | --- | --- |
+| 110168 | CENTRO | 2026-11-24 | PENDING |
+| 110126 | CENTRO | 2026-11-27 | PENDING |
 | 110117 | BARRA | 2026-11-24 | PENDING |
 | 110118 | BARRA | 2026-11-24 | PENDING |
 
