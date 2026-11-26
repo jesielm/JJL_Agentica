@@ -32,8 +32,7 @@
 
 | OC | unidade | entrega | validacao |
 | --- | --- | --- | --- |
-| 110168 | CENTRO | 2026-11-24 | PENDING |
-| 110126 | CENTRO | 2026-11-27 | PENDING |
+| Nenhum |  |  |  |
 
 ## NFs registradas nos ultimos 7 dias
 
